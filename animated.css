@@ -1,0 +1,236 @@
+body{
+    height: 100%;
+    width: 100%;
+}
+#nav{
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+#nav h1 img{
+    height: 25px;
+    width: 30px;
+}
+#right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+}
+#right button{
+    padding: 6px 15px;
+}
+#nav h3{
+    font-size: 17px;
+    font-weight: 700;
+}
+.section1,.section2,.section3,.services,.container,.footer,.section4{
+    padding: 10px 50px;
+    /* margin: 30px; */
+}
+.section2{
+    height: 100%;
+    width: 100%;
+    display: flex;
+
+}
+#part1{
+    height: 300px;
+    width: 45%;
+}
+#part2{
+    height: 300px;
+    width: 55%;
+    position: relative;
+}
+#part1 h1{
+    width: 55%;
+    font-size: 35px;
+}
+#part1 p{
+    width: 55%;
+    font-size: 13px;
+}
+#part1 button{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+#part2 img{
+    width: 100%;
+    position: absolute;
+    right: 0;
+    height: 300px;
+    margin-right: -13spx;
+}
+.section3{
+    width: 88%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 50px;
+}
+.section3 img{
+    height: 50px;
+    width: 90px;
+    padding: 7px 50px;
+    
+}
+.services{
+    height: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 7px 95px;
+    gap: 15px;
+}
+.services p{
+    width: 38%;
+    font-weight: 600;
+}
+.services h2{
+    background-color: rgba(94, 226, 125, 0.941);
+    padding: 3px 7px;
+    font-weight: 1200;
+    font-size: 20px;
+}
+.container{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 18px;
+    margin-left: -17px;
+    
+}
+.box1,.box4{
+    height: 200px;
+    width: 40%;
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 5px black;
+}
+.box1 img,.box4 img,.box2 img,.box3 img{
+    padding: 20px 20px;
+}
+.rightPart{
+    padding-left: 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.rightPart h1{
+    background-color: rgba(94, 226, 125, 0.941);
+    width: 150px;
+    align-items: center;
+}
+.box2{
+    background-color: black;
+    height: 200px;
+    width: 40%;
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 5px black;
+    margin-right: 15px;
+}
+.box2 .rightPart2 h1,.box3 .rightPart2 h1{
+    background-color: white;
+    color: black;
+    width: 86%;
+}
+.box2 p,.box1 p,.box4 p{
+    font-size: 17px;
+    font-weight: 800;
+}
+.rightPart2{
+    color: white;
+    padding-left: 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.box3{
+    background-color: black;
+    height: 200px;
+    width: 40%;
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 5px black;
+    margin-right: 15px;
+}
+.box4{
+    height: 200px;
+    width: 40%;
+    border: 2px solid rgb(56, 6, 6);
+    border-radius: 20px;
+    margin-right: 15px;
+}
+.footer{
+    width: 70%;
+    height: 40px;
+    background-color: transparent;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 100px;
+    border-radius: 30px;
+    gap: 40px;
+}
+.footer a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 9S00;
+    display: flex;
+}
+.footer img{
+    height: 28px;
+    width: 25px;
+}
+.footer a:hover{
+    color: blue;
+}
+
+.section4{
+    max-height: 190px;
+    margin: 50px 87px;
+    margin-right: 114px;
+    background-color: rgba(128, 128, 128, 0.391);
+    display: flex;
+    border-radius: 40px;
+}
+.firstSide{
+    display: flex;
+    flex-direction: column;
+}
+.firstSide p{
+    width: 52%;
+    font-weight: 500;
+}
+.firstSide button{
+    width: 140px;
+    padding: 8px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 24px;
+}
+.secondSide img{
+    height: 105px;
+    width: 120px;
+    padding: 30px;
+}
